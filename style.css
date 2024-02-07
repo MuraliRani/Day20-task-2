@@ -1,0 +1,42 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set height to viewport height */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: #fff;
+}
+
+/* Dog image container styles */
+#dog-image-container {
+    text-align: center;
+}
+
+/* Dog image styles */
+#dog-image img {
+    max-width: 100%;
+    max-height: 80vh; /* Limit maximum height */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* Button container styles */
+#button-container {
+    text-align: center;
+    font-size: large;
+    padding:10px;
+}
+
+/* Weather info styles */
+#weather-info {
+    margin-top: 30px;
+}
+
+/* Breaking Bad quote styles */
+#breaking-bad-quote {
+    margin-top: 30px;
+    font-style: italic;
+}
